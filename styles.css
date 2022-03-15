@@ -72,3 +72,8 @@
 .weather-temperature {
   color: #6c757d;
 }
+
+.footer {
+  margin-left: 60px;
+  margin-top: 5px;
+}
