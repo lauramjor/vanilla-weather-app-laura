@@ -1,0 +1,74 @@
+.container {
+  box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+  background-image: linear-gradient(
+    104.3deg,
+    rgb(253, 243, 243) 10.9%,
+    rgb(248, 231, 231) 27.8%,
+    rgb(160, 112, 161) 101.7%
+  );
+  border-radius: 10px;
+  color: #fff;
+  max-width: 600px;
+  margin: 40px 40px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.btn {
+  background-color: #faeded;
+  border-color: #faeded;
+  color: #bc96b7;
+  transition: all 200ms ease-in-out;
+}
+
+.btn:hover {
+  background: #6c757d;
+  border-color: #6c757d;
+  cursor: pointer;
+}
+
+.currentWeather {
+  text-align: left;
+  padding-top: 15px;
+  color: #6c757d;
+}
+
+.currentCity {
+  color: #6c757d;
+  font-weight: 400;
+}
+
+.weatherToday:first-letter {
+  text-transform: capitalize;
+}
+
+.temperature {
+  float: left;
+  font-size: 60px;
+  padding-left: 10px;
+  color: #6c757d;
+}
+
+.col-6 {
+  position: relative;
+  padding-left: 65px;
+  top: 15px;
+  color: #6c757d;
+}
+
+.list {
+  list-style: none;
+}
+
+.second {
+  margin: 40px 0;
+  background-color: #e9d2db;
+}
+
+.weekday {
+  color: #6c757d;
+}
+
+.weather-temperature {
+  color: #6c757d;
+}
