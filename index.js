@@ -18,8 +18,24 @@ currentDateTime.innerHTML = `${day} ${hour}:${minute}`;
 function displayForecast(){
   let forecastElement = document.querySelector("#forecast");
   
-  forecastElement.innerHTML =´
-}
+  let forecastHTML = `<div class="row">`;
+  let days = ["Mon", "Tue", "Wed"];
+  days.forEach(function(day) {
+       forecastHTML = forecastHTML +
+				 `<div class="row">
+				  <div class="col-2">
+					<div class="weather-forecast-date">${day}</div>
+					  <div class="weather-icon">☀️</div>
+					    <div class="weather-forecast-temperatures">
+						<span class="weather-forecast-temperature-max">
+							15º </span>
+						<span class="weather-forecast-temperature-min">
+							13º </span>
+					</div>
+		</div>`;
+});
+   forecastHTML = forecastHTML + `</div>`;
+   forecastElement.innerHTML = forecastHTML;
 
 //Feature 2 - Add a search engine, when searching for a city (i.e. Paris), display the city name on the page after the user submits the form.
 function search(event) {
