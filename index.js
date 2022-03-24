@@ -15,6 +15,12 @@ let minute = now.getMinutes();
 let currentDateTime = document.querySelector("#current-date-time");
 currentDateTime.innerHTML = `${day} ${hour}:${minute}`;
 
+function displayForecast(){
+  let forecastElement = document.querySelector("#forecast");
+  
+  forecastElement.innerHTML = "forecast";
+}
+
 //Feature 2 - Add a search engine, when searching for a city (i.e. Paris), display the city name on the page after the user submits the form.
 function search(event) {
   event.preventDefault();
@@ -32,6 +38,8 @@ function search(event) {
 
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", search);
+
+
 
 function displayWeather(response) {
   console.log(response.data);
@@ -111,3 +119,5 @@ fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
+
+
