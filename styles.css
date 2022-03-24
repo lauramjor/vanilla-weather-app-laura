@@ -72,12 +72,12 @@
   background-color: #e9d2db;
 }
 
-.weekday {
-  color: #6c757d;
+.col {
+  text-align:center;
 }
 
-.weather-icon {
-  text-align: center;
+.weekday {
+  color: #6c757d;
 }
 
 .weather-temperature {
