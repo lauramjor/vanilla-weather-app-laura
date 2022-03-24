@@ -76,6 +76,10 @@
   color: #6c757d;
 }
 
+.weather-icon {
+  text-align: center;
+}
+
 .weather-temperature {
   color: #6c757d;
 }
