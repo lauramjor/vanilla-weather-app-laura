@@ -11,15 +11,15 @@
 }
 
 .btn {
-  background-color: #faeded;
-  border-color: #faeded;
-  color: #9BC5FC;
+  background-color: #CDE5F7;
+  border-color: #CDE5F7;
+  color: #2E79BB;
   transition: all 200ms ease-in-out;
 }
 
 .btn:hover {
-  background: #6c757d;
-  border-color: #6c757d;
+  background: #CDE5F7;
+  border-color: #CDE5F7;
   cursor: pointer;
 }
 
