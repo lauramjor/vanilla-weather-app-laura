@@ -50,6 +50,12 @@
   color: #6c757d;
 }
 
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+  text-decoration: none;
+}
+
 .weather-temperature .active:hover {
   color: rgb(33, 33, 33);
   cursor: default;
