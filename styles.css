@@ -10,6 +10,10 @@
   padding-bottom: 40px;
 }
 
+.search-text-input {
+  color: #CDE5F7
+}
+
 .btn {
   background-color: #CDE5F7;
   border-color: #CDE5F7;
