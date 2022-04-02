@@ -26,11 +26,11 @@
 .currentWeather {
   text-align: left;
   padding-top: 15px;
-  color: #6c757d;
+  color: 	#FFFFFF;
 }
 
 .currentCity {
-  color: #6c757d;
+  color: 	#FFFFFF;
   font-weight: 400;
 }
 
@@ -42,7 +42,7 @@
   float: left;
   font-size: 40px;
   padding-left: 10px;
-  color: #6c757d;
+  color: 	#FFFFFF;
 }
 
 .weather-temperature .active {
@@ -61,7 +61,7 @@
   position: relative;
   padding-left: 65px;
   top: 15px;
-  color: #6c757d;
+  color: #FFFFFF;
 }
 
 .list {
@@ -78,11 +78,11 @@
 }
 
 .weekday {
-  color: #6c757d;
+  color: #FFFFFF;
 }
 
 .weather-temperature {
-  color: #6c757d;
+  color: #FFFFFF;
 }
 
 .footer {
